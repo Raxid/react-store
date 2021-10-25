@@ -1,0 +1,61 @@
+.navbar {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #20232a !important; }
+  .navbar .ds-search {
+    height: 50px;
+    width: 300px !important; }
+  .navbar .navbar-brand {
+    margin-right: 3px;
+    font-size: 48Px;
+    letter-spacing: 1px;
+    color: #61dafb !important;
+    font-weight: 500; }
+  .navbar .nav-item {
+    font-size: 28px; }
+  .navbar .btn-ds-search {
+    background-color: transparent;
+    border-color: #ededed;
+    color: #61dafb; }
+    .navbar .btn-ds-search:hover, .navbar .btn-ds-search:focus, .navbar .btn-ds-search:active {
+      background-color: light-gray-color !important;
+      border-color: #61dafb !important;
+      color: #61dafb !important;
+      box-shadows: none; }
+  .navbar .nav-item {
+    color: #61dafb; }
+
+#itemListing {
+  /* SINGLE ITEM STYLES*/ }
+  #itemListing .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  #itemListing .ds-card {
+    border: none; }
+    #itemListing .ds-card .card-block {
+      padding-top: 8px; }
+      #itemListing .ds-card .card-block .card-img-top {
+        width: auto;
+        height: auto;
+        max-width: 350px;
+        max-height: 250px; }
+      #itemListing .ds-card .card-block .card-subtitle {
+        margin: 0;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #16861a; }
+      #itemListing .ds-card .card-block .card-title {
+        font-size: 19px;
+        margin: 3px 0; }
+      #itemListing .ds-card .card-block .card-text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #7e7e7e;
+        margin-bottom: 0; }
+
+.page-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px; }

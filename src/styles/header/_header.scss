@@ -1,0 +1,39 @@
+.navbar {
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: $main-black-color !important;
+
+	.ds-search {
+		height: 50px;
+		width: 300px !important;
+	}
+
+	.navbar-brand{
+		margin-right: 3px;
+		font-size: 48Px;
+		letter-spacing: 1px;
+		color: $main-color !important;
+		font-weight: 500;
+	}
+
+	.nav-item{
+		font-size: 28px;
+	}
+
+	.btn-ds-search {
+		background-color: transparent;
+		border-color: $main-white-color;
+		color: $main-color;
+
+		&:hover, &:focus, &:active {
+			background-color: light-gray-color !important;
+			border-color: $main-color !important;
+			color: $main-color !important;
+			box-shadows: none;
+		}
+	}
+
+	.nav-item{
+		color: $main-color;
+	}
+}
