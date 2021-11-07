@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar {
   padding: 20px;
   margin-bottom: 40px;
@@ -31,31 +32,42 @@
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px; }
-  #itemListing .ds-card {
-    border: none; }
-    #itemListing .ds-card .card-block {
-      padding-top: 8px; }
-      #itemListing .ds-card .card-block .card-img-top {
-        width: auto;
-        height: auto;
-        max-width: 350px;
-        max-height: 250px; }
-      #itemListing .ds-card .card-block .card-subtitle {
-        margin: 0;
-        font-weight: 500;
-        font-size: 12px;
-        text-transform: uppercase;
-        color: #16861a; }
-      #itemListing .ds-card .card-block .card-title {
-        font-size: 19px;
-        margin: 3px 0; }
-      #itemListing .ds-card .card-block .card-text {
-        font-size: 14px;
-        font-weight: 300;
-        color: #7e7e7e;
-        margin-bottom: 0; }
+  #itemListing .item-detail-link {
+    text-decoration: none; }
+  #itemListing .ds-card .card-block {
+    padding-top: 8px;
+    border: none;
+    text-decoration: none; }
+    #itemListing .ds-card .card-block .card-img-top {
+      width: auto;
+      height: auto;
+      max-width: 350px;
+      max-height: 250px; }
+    #itemListing .ds-card .card-block .card-subtitle {
+      margin: 0;
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase; }
+    #itemListing .ds-card .card-block .card-title {
+      font-size: 19px;
+      margin: 3px 0;
+      color: #484848; }
+    #itemListing .ds-card .card-block .card-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7e7e7e;
+      margin-bottom: 0; }
 
 .page-title {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px; }
+
+.dużo {
+  color: #a72da3; }
+
+.niewiele {
+  color: #bf1818; }
+
+.brak {
+  color: #d6800; }
