@@ -6,11 +6,16 @@
 	}
 
 	/* SINGLE ITEM STYLES*/
+	.item-detail-link{
+		text-decoration: none;
+	}
 	.ds-card {
-		border: none;
+
 
 		.card-block {
 			padding-top: 8px;
+			border: none;
+			text-decoration: none;
 
 			.card-img-top {
 				width:auto;
@@ -24,12 +29,12 @@
 				font-weight: 500;
 				font-size: 12px;
 				text-transform: uppercase;
-				color: #16861a;
 			}
 
 			.card-title {
 				font-size: 19px;
 				margin: 3px 0;
+				color: $main-text-gray-color;
 			}
 
 			.card-text {
